@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
                     'vote_count'
                 ]
             ],
-            oder: [
+            order: [
                 ['created_at', 'DESC']
             ],
             include: [{
